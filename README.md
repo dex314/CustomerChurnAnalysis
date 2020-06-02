@@ -1,9 +1,10 @@
 # CustomerChurnAnalysis
-A brief data dive and analysis on Telco Customer Churn from Kaggle.
 
-The notebook does an exploratory data analysis, data cleaning and modeling with Sklearn Random Forest.
+This is brief data dive and modeling on the Telco Customer Churn data from Kaggle.
 
-From there it examines the results over a three fold cross validation including:
-- Classification Reports (Precision, Recall, Accuracy)
-- Deciles and Lift
-- Normalized Feature Importances
+Version 2 is the most recent version, updated to include new thoughts, xgboost, and shap.
+
+Version 1 does an exploratory data analysis, data cleaning and modeling with Sklearn Random Forest.
+
+
+Both versions include variations on Cross Fold Validation, Deciling and Lift, and Feature Importances.
